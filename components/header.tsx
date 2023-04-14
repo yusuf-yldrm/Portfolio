@@ -29,7 +29,7 @@ const Header: NextPage = () => {
             <div className="relative leading-[21px]">
               <a
                 className="text-[inherit]"
-                href="https://www.linkedin.com/in/kawsarvy/"
+                href="https://www.linkedin.com/in/dev-yusuf/"
                 target="_blank"
               >
                 <span>Linkedin</span>
