@@ -11,7 +11,7 @@ const KnowLedgeContainer = ({
 }) => {
   return (
     <div className="flex flex-row py-2.5 px-[18px] items-start justify-start text-left text-lg text-gray-100 font-outfit">
-      <div className="bg-gray-300 flex flex-col py-12 px-[21px] items-start justify-start gap-[30px] border-[1px] border-solid border-gray-200">
+      <div className="h-full bg-gray-300 flex flex-col py-12 px-[21px] items-start justify-start gap-[30px] border-[1px] border-solid border-gray-200">
         <img
           className="relative w-11 h-11 shrink-0 overflow-hidden"
           alt=""
