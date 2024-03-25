@@ -180,6 +180,7 @@ const Home: NextPage = () => {
 <ul>
 <li>By email: app.yusufyildirim@gmail.com</li>
 </ul>
+      </div>
 )}
 
       export default Home
