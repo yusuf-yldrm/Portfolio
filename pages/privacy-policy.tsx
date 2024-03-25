@@ -9,10 +9,6 @@ const Home: NextPage = () => {
   return (
     <div className="relative bg-gray-400 w-full flex flex-col items-center justify-center gap-[45px] text-left text-sm text-gray-100 font-outfit">
       <Header />
-      <DigitalContainer />
-      <SectionContainer />
-      <CollaborateContainer />
-      <StoryContainer />
       <h1>Privacy Policy</h1>
 <p>Last updated: March 25, 2024</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
