@@ -1,4 +1,19 @@
-<h1>Privacy Policy</h1>
+import type { NextPage } from "next";
+import Header from "../components/header";
+import DigitalContainer from "../components/digital-container";
+import SectionContainer from "../components/section-container";
+import CollaborateContainer from "../components/collaborate-container";
+import StoryContainer from "../components/story-container";
+
+const Home: NextPage = () => {
+  return (
+    <div className="relative bg-gray-400 w-full flex flex-col items-center justify-center gap-[45px] text-left text-sm text-gray-100 font-outfit">
+      <Header />
+      <DigitalContainer />
+      <SectionContainer />
+      <CollaborateContainer />
+      <StoryContainer />
+      <h1>Privacy Policy</h1>
 <p>Last updated: March 25, 2024</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
 <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.</p>
@@ -169,3 +184,6 @@
 <ul>
 <li>By email: app.yusufyildirim@gmail.com</li>
 </ul>
+)}
+
+      export default Home
