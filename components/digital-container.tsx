@@ -1,27 +1,35 @@
 import type { NextPage } from "next";
-import ContainerLatestShots from "./container-latest-shots";
 
 const DigitalContainer: NextPage = () => {
   return (
-    <div className="flex flex-col p-2.5 items-center justify-start gap-[27px] text-center text-sm text-darkgray font-outfit">
+    <div className="flex flex-col items-center justify-center gap-6 p-4 text-center font-outfit">
       <img
-        className="relative w-[120px] h-[120px] shrink-0 object-cover"
-        alt=""
+        className="w-24 h-24 rounded-full object-cover"
+        alt="Profile"
         src="/profile.png"
       />
-      <div className="flex flex-row items-center justify-center gap-[5.25px]">
-        <div className="relative leading-[14px]">Hi, I'm Yusuf</div>
-        <img
-          className="relative w-3.5 h-[17px] shrink-0 overflow-hidden"
-          src="/openai.svg"
-        />
+      <div className="flex items-center gap-2 text-[50px] ">
+        <span>Yusuf Yildirim</span>
       </div>
-      <div className="flex flex-col py-0 items-center justify-start text-13xl md:text-37xl">
-        <div className="relative leading-[64px]  flex items-center justify-center  shrink-0">
-          Building digital <br />
-          products, mobile apps, <br />
-          and Experience.
-        </div>
+      <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-2xl">
+        Building digital products, mobile apps, and experiences.
+      </h1>
+      <div className="flex gap-12">
+        <a
+          href="https://cal.com/yusuf-yildirim"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-blue-500 text-white bg-blue-500 hover:bg-transparent hover:text-blue-500 font-medium py-3 px-8 rounded-full transition duration-300 text-lg"
+        >
+          Book a Meeting
+        </a>
+        <a
+          href="/Yusuf_Yildirim_Resume.pdf"
+          download
+          className="border border-green-800 text-white bg-green-800 hover:bg-transparent hover:text-green-800 font-medium py-3 px-8 rounded-full transition duration-300 text-lg"
+        >
+          Download CV
+        </a>
       </div>
     </div>
   );

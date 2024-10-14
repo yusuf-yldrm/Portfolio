@@ -2,11 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply bg-[#021526] min-h-screen;
+}
+
 body {
   @apply leading-[normal] m-0;
 }
+
+#__next {
+  @apply min-h-screen flex flex-col;
+}
+
 *,
 ::before,
 ::after {
   border-width: 0;
+}
+
+a {
+  @apply text-white;
 }

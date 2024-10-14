@@ -3,32 +3,36 @@ import KnowLedgeContainer from "./ux-container";
 
 const CollaborateContainer: NextPage = () => {
   return (
-    <div className="flex flex-col p-2.5 items-center justify-start gap-[45px] text-center text-13xl text-gray-100 font-outfit">
-      <div className="w-full shrink-0 flex flex-col py-5 box-border items-center justify-center gap-[2px]">
-        <div className="relative leading-[40px]  flex items-center justify-center h-10 shrink-0">
-          Collaborate with brands and agencies to create impactful results.
-        </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold  mb-4">
+          Mobile Application Development Expertise
+        </h2>
+        <p className="text-xl text-gray-600">
+          Discover our comprehensive knowledge in creating powerful and
+          efficient mobile applications.
+        </p>
       </div>
-      <div className="flex flex-col md:flex-row items-start justify-start gap-[45px] text-left text-lg h-[250px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <KnowLedgeContainer
           icon="mobile"
-          title="Mobile Application"
-          description="Cross-platform mobile apps with native performance."
+          title="Cross-Platform Development"
+          description="Building efficient apps for multiple platforms using React Native, Flutter, or other cross-platform frameworks."
         />
         <KnowLedgeContainer
-          icon="web"
-          title="Web Application"
-          description="Creating web applications that are fast, secure, and easy to use."
-        />
-        <KnowLedgeContainer
-          icon="design"
+          icon="ux"
           title="UI/UX Design"
-          description="Designing interfaces that are intuitive, efficient, and enjoyable to use."
+          description="Crafting intuitive and engaging user interfaces for exceptional mobile experiences."
         />
         <KnowLedgeContainer
-          icon="growth"
-          title="Organic Growth"
-          description="Growing apps with the right strategy and tactics."
+          icon="integration"
+          title="Integrations"
+          description="Seamlessly connecting mobile apps with third-party services, APIs, and backend systems."
+        />
+        <KnowLedgeContainer
+          icon="analytics"
+          title="Analytics"
+          description="Implementing robust analytics to track user behavior and improve app performance."
         />
       </div>
     </div>
